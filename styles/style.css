@@ -1,1 +1,89 @@
-/* место для вашего кода */
+.body {
+    font-family: Raleway, sans-serif;
+    background-color: #ffffff;
+    width: 1100px;
+    height: 92px;
+    top: 92px;
+    left: 24px;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 92px 24px;
+}
+img {
+    width: 129px;
+    height: 104px;
+}
+.header__links-list {
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+    gap: 28px;
+    list-style: circle;
+    padding-top: 44px;
+    padding-left: 26px;
+    padding-bottom: 40px;
+}
+.header__links-list-item_no-bullit {
+    list-style-type: none;
+}
+.header__logo {
+    margin-left: 36px;
+}
+.header__address {
+    padding: 5px 25px 2px 184px;
+    font-family: Raleway, sans-serif;
+    font-weight: 400px;
+}
+.cover_image {
+    width: 1100px;
+    height: 757px;
+
+}
+.cover {
+    position: relative;
+    width: 1100px;
+    height: 757px;
+}
+.cover_image {
+    position: absolute;
+    z-index: -1;
+}
+.overlay {
+    background-color: black;
+    opacity: 60%;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+}
+h1 {
+    position: absolute;
+    z-index: 2;
+}
+.cover__title {
+    padding-top: 165px;
+    padding-left: 50px;
+}
+.cover-text {
+    display: block;
+    font-weight: 700;
+    color:#ffffff;
+    font-size: 100px; 
+    text-transform: uppercase;
+}
+
+.aligned-text-left {
+    text-align: justify;
+}
+.custom-letter-spacing{ 
+    letter-spacing: 0.6em;
+}
+.aligned-text-center {
+    padding-left: 336px;
+    text-align: center;
+    line-height: 100%;
+    letter-spacing: 0.3em;
+}
